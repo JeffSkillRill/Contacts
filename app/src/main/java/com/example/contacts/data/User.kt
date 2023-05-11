@@ -1,12 +1,14 @@
-package com.example.contacts
+package com.example.contacts.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "user_table")
 data class User(
+
     var firstName: String = "",
-    var lastName: String = ""
+    var lastName: String = "",
+    val phone_number:String = ""
 )
 {
     @PrimaryKey(autoGenerate = true) var id:Int = 0
