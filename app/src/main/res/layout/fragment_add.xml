@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/addPersonLastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="15"
@@ -57,11 +57,11 @@
         android:layout_height="wrap_content"
         android:ems="15"
         android:hint="+998 99 999 99 99 "
-        android:inputType="phone"
+        android:inputType="number"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/addPersonLastName" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/addbtn"
