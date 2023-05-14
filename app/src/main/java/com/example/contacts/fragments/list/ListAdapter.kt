@@ -1,11 +1,8 @@
 package com.example.contacts.fragments.list
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.contacts.R
-import com.example.contacts.data.User
 import com.example.contacts.databinding.CustomRowBinding
 
 class ListAdapter:RecyclerView.Adapter<ListAdapter.MyViewHolder>() {

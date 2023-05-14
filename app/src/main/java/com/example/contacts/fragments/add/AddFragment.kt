@@ -10,8 +10,6 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.contacts.R
-import com.example.contacts.data.User
-import com.example.contacts.data.UserViewModel
 import com.example.contacts.databinding.FragmentAddBinding
 
 class AddFragment : Fragment() {
